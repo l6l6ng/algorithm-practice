@@ -40,7 +40,7 @@ def fib4(n: int) -> Generator[int, None, None]:
     next1 = 1
     for _ in range(1, n):
         last, next1 = next1, last + next1
-    yield next1
+        yield next1
 
 
 if __name__ == "__main__":
